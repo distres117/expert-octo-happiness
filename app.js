@@ -8,9 +8,6 @@ http.createServer(function(req,res){
         router.home(req,res);
     else
         router.user(req,res);
-    
-}).listen(process.env.PORT, process.env.IP);
-console.log('Server is running..');
 
-
-
+}).listen(3000);
+console.log('Server is running on port 3000');
